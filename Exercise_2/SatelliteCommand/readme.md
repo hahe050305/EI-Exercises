@@ -3,15 +3,9 @@ Given Problem Statement:-
    You are tasked with developing a Satellite Command System that simulates controlling a satellite in orbit. 
    The satellite starts in a default initial state and can accept a series of commands to change its orientation, solar panel status, and data collection.
 
-Goal to Accomplish:-
-
-   * This project is a simulation of controlling a satellite in orbit. 
-   * The satellite can rotate, activate or deactivate its solar panels, collect data, and handle failure/recovery states — all through simple user commands. 
-   * The goal is to make it interactive, minimal, and realistic, while showing good coding practices.
-
- My Planning of folder creation and functonality spread:-
+My Planning of folder creation and functonality spread:-
  
-  To organise the various set of classes through 4 different folder structures by the corresponding import of the "packages".
+   To organise the various set of classes through 4 different folder structures by the corresponding import of the "packages".
 
 Folder structure designing:-
 
@@ -84,3 +78,4 @@ e) Recovery Mode and Normal Working:-
 
 
   
+
