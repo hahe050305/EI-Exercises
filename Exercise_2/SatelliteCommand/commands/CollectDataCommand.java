@@ -1,3 +1,6 @@
+// Class Purpose :- " Data collection execution on panel activation else blocking beacause of deactivating the panels "
+
+
 package commands;
 
 import core.Satellite;
@@ -5,7 +8,7 @@ import utils.InvalidOperationException;
 import utils.LoggerUtility;
 
 public class CollectDataCommand implements Command {
-    private final Satellite satellite;
+    private Satellite satellite;
 
     public CollectDataCommand(Satellite satellite) {
         this.satellite = satellite;
@@ -18,5 +21,15 @@ public class CollectDataCommand implements Command {
         } catch (InvalidOperationException e) {
             LoggerUtility.log("Error: " + e.getMessage());
         }
+    }
+
+    @Override
+    public void undo() {
+        LoggerUtility.log("Undo not supported for data collection.");
+    }
+
+    @Override
+    public String getName() {
+        return "Collect Data";
     }
 }

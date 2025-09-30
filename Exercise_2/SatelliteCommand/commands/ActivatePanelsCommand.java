@@ -1,9 +1,12 @@
+// Class Purpose :- " Activating the panels "
+
+
 package commands;
 
 import core.Satellite;
 
 public class ActivatePanelsCommand implements Command {
-    private final Satellite satellite;
+    private Satellite satellite;
 
     public ActivatePanelsCommand(Satellite satellite) {
         this.satellite = satellite;
@@ -12,5 +15,15 @@ public class ActivatePanelsCommand implements Command {
     @Override
     public void execute() {
         satellite.activatePanels();
+    }
+
+    @Override
+    public void undo() {
+        satellite.deactivatePanels();
+    }
+
+    @Override
+    public String getName() {
+        return "Activate Panels";
     }
 }
