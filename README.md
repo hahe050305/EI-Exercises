@@ -11,6 +11,7 @@ Creational Patterns:-
 
 i) Singleton – DatabaseConnection
 
+
 Only one database connection should exist at a time.
 
 This pattern ensures controlled object creation.
@@ -19,11 +20,13 @@ This pattern ensures controlled object creation.
 
 ii) Factory – Vehicle Factory
 
+
 A user asks for a car or bike, and the factory decides which object to create.
 
 This promotes loose coupling and follows the open/closed principle.
 
 Structural Patterns:-
+
 
 i) Adapter – Payment Gateway
 
@@ -39,6 +42,7 @@ This extends functionality without modifying the original class.
 
 Behavioral Patterns:-
 
+
 i) Observer – Store & Customers
 
 Customers subscribe to store updates.
@@ -48,6 +52,9 @@ Customers subscribe to store updates.
 ii) Strategy – Sorting Algorithms
 
 The program can choose between different algorithms such as BubbleSort or InsertionSort at runtime.
+
+
+
 
 
 Exercise:-2 
