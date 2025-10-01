@@ -11,43 +11,43 @@ Creational Patterns:-
 
 i) Singleton – DatabaseConnection
 
-    Only one database connection should exist at a time.
+Only one database connection should exist at a time.
 
-    This pattern ensures controlled object creation.
+This pattern ensures controlled object creation.
 
-    "DatabaseConnection.getInstance()" always returns the same instance.
+"DatabaseConnection.getInstance()" always returns the same instance.
 
 ii) Factory – Vehicle Factory
 
-    A user asks for a car or bike, and the factory decides which object to create.
+A user asks for a car or bike, and the factory decides which object to create.
 
-    This promotes loose coupling and follows the open/closed principle.
+This promotes loose coupling and follows the open/closed principle.
 
 Structural Patterns:-
 
 i) Adapter – Payment Gateway
 
-    The old system (`OldPaymentProcessor`) is adapted to a new interface (`PaymentGateway`).
+The old system (`OldPaymentProcessor`) is adapted to a new interface (`PaymentGateway`).
 
-    This is commonly used when integrating legacy code into modern applications.
+This is commonly used when integrating legacy code into modern applications.
 
 ii) Decorator – Pizza Toppings
 
-    Start with a `BasicPizza` and dynamically add toppings such as `Cheese` or `Olives`.
+Start with a `BasicPizza` and dynamically add toppings such as `Cheese` or `Olives`.
 
-    This extends functionality without modifying the original class.
+This extends functionality without modifying the original class.
 
 Behavioral Patterns:-
 
 i) Observer – Store & Customers
 
-    Customers subscribe to store updates.
+Customers subscribe to store updates.
 
-    When a new product arrives, all subscribed customers are automatically notified.
+ When a new product arrives, all subscribed customers are automatically notified.
 
 ii) Strategy – Sorting Algorithms
 
-    The program can choose between different algorithms such as BubbleSort or InsertionSort at runtime.
+The program can choose between different algorithms such as BubbleSort or InsertionSort at runtime.
 
 
 Exercise:-2 
