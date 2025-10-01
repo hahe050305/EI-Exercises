@@ -60,7 +60,7 @@ b) Performing the satellite operations and status check:
 
 c) System failure simulation and recovery mode:-
 
-<img width="615" height="187" alt="image" src="https://github.com/user-attachments/assets/33c1abf3-4e47-4f5d-9fc2-a997976c79c4" />
+<img width="788" height="101" alt="image" src="https://github.com/user-attachments/assets/fff3b5a4-9c6b-4a38-b104-f9d61dcd4dc0" />
 
 <img width="1053" height="80" alt="image" src="https://github.com/user-attachments/assets/8bb7eb19-253b-42d0-8b8f-31c6641ce8d9" />
 
@@ -78,4 +78,5 @@ e) Recovery Mode and Normal Working:-
 
 
   
+
 
